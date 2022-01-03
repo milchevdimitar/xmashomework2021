@@ -7,5 +7,5 @@ $1 = 'python3-tk'
 if [ $? -eq 0 ]; then
     python main.py
 else
-    sudo apt install python3-tk
+    sudo apt install python3-tk && python main.py
 fi
